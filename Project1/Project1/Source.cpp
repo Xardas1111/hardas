@@ -2,6 +2,7 @@
 #include "windows.h"
 using namespace std;
 int main(){
+	cout << "Are you hui?" << endl;
 	int hui[20][20][20][20];
 	int n=20;
 	string IVAN = "IVAN H*I";
