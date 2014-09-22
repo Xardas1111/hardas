@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 	int hui[20][20][20][20];
 	int n=20;
+	double mas;
 	SYSTEMTIME lt;
 	GetLocalTime(&lt);
 	printf("First Cycle: %2d:%4d\n",lt.wSecond, lt.wMilliseconds);
@@ -27,5 +28,6 @@ int main(){
 	GetLocalTime(&lt);
 	printf("Second Cycle: %2d:%4d\n",lt.wSecond, lt.wMilliseconds);
 	getchar();
+	long long h;
 	return 0;
 }
