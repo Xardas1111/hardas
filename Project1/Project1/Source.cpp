@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
 	cout << 5 << 6 << 7 << 8 << endl;
+	cout << "Roman likes to go suck Shamovich's pan" << endl;
 	int hui[20][20][20][20];
 	int n=20;
 	string IVAN = "IVAN H*I";
